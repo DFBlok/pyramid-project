@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section h1{
+    text-align: center;
+    text-decoration: 1px underline #d8b65c;
+    margin: 10px 0;
+    color: white;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin: 0 5px;
+}
+/* //styling */
+/* .pyramid {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.pyramid-row {
+    text-align: center;
+}
+
+.pyramid-number {
+    display: inline-block;
+    width: 40px; 
+}
+
+.pyramid-even {
+    color: blue;
+}
+
+.pyramid-odd {
+    color: green;
+} */
+body {
+    background-color: #0a191e;
+}
+
+.pyramid {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.pyramid-row {
+    text-align: center;
+}
+
+.pyramid-block {
+    display: inline-block;
+    width: 30px; /* Adjust block size as needed */
+    height: 30px; /* Adjust block size as needed */
+    margin: 0 5px; /* Adjust block spacing as needed */
+}
+
+/* Define colors for the blocks */
+.color-1 {
+    background-color: #4a9878;
+}
+
+.color-2 {
+    background-color: #d8b65c;
+}
